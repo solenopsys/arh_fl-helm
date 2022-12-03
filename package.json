@@ -1,0 +1,11 @@
+{
+  "name": "@solenopsys/sc-fl-helm",
+  "version": "0.9.1",
+  "dependencies": {
+    "protobufjs": "^7.1.2"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "build": "tsc -p tsconfig.lib.json"
+  }
+}

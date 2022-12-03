@@ -1,0 +1,26 @@
+{
+  "name": "helm",
+  "projectType": "library",
+  "sourceRoot": "packages/data/helm/src",
+  "prefix": "hyperconverged",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/data/helm"],
+      "options": {
+        "jestConfig": "packages/data/helm/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "packages/data/helm/**/*.ts",
+          "packages/data/helm/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
