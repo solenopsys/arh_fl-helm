@@ -2,7 +2,7 @@
   "name": "helm",
   "projectType": "library",
   "sourceRoot": "packages/data/helm/src",
-  "prefix": "hyperconverged",
+  "prefix": "sc",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
