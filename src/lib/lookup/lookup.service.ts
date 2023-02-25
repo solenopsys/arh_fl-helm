@@ -18,7 +18,7 @@ export class HelmLookupService { // todo remove dubles
   constructor(private hss: HStreamService) {
   }
 
-  private serviceName = "alexstorm-helm-lookup";
+  private serviceName = "alexstorm-clusters-lookup";
 
   getRepos(filter: string): Promise<ReposResponse> {
     const r: GetReposRequest = { filter: filter };
