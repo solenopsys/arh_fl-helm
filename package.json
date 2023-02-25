@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fl-clusters",
+  "name": "@solenopsys/sc-fl-helm",
   "version": "0.9.1",
   "dependencies": {
     "protobufjs": "^7.1.2"
