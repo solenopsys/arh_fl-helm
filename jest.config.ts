@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'data-clusters',
+  displayName: 'data-fl-helm',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../coverage/packages/data/clusters',
+  coverageDirectory: '../../../coverage/packages/data/fl-helm',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

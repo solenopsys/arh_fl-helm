@@ -1,14 +1,14 @@
 {
-  "name": "clusters",
+  "name": "fl-helm",
   "projectType": "library",
-  "sourceRoot": "packages/data/clusters/src",
+  "sourceRoot": "packages/data/fl-helm/src",
   "prefix": "sc",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/data/clusters"],
+      "outputs": ["coverage/packages/data/fl-helm"],
       "options": {
-        "jestConfig": "packages/data/clusters/jest.config.ts",
+        "jestConfig": "packages/data/fl-helm/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -16,8 +16,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "packages/data/clusters/**/*.ts",
-          "packages/data/clusters/**/*.html"
+          "packages/data/fl-helm/**/*.ts",
+          "packages/data/fl-helm/**/*.html"
         ]
       }
     }

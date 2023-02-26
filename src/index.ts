@@ -1,4 +1,4 @@
-export * from './lib/data-clusters.module';
+export * from './lib/data-helm.module';
 export * from './lib/lookup/lookup.service';
 export * from './lib/lookup/api';
-export * from './lib/clusters-repos.store';
+export * from './lib/helm-repos.store';
