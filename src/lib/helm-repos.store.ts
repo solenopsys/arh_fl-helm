@@ -1,7 +1,9 @@
 import { Action, Selector, State, StateContext, Store } from "@ngxs/store";
 import { Injectable } from "@angular/core";
 import { append, patch, removeItem } from "@ngxs/store/operators";
-import { Chart, HelmLookupService } from "..";
+import {Chart} from "./lookup/api";
+import {HelmLookupService} from "./lookup/lookup.service";
+
 
 
 export class HelmRepository {

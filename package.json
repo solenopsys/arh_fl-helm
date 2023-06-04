@@ -1,11 +1,11 @@
 {
   "name": "@solenopsys/fl-helm",
-  "version": "0.9.1",
-  "dependencies": {
-    "protobufjs": "^7.2.2"
-  },
+  "version": "0.1.0",
   "scripts": {
-    "test": "node index.js",
-    "build": "etsc -p tsconfig.lib.json"
+    "build": "ng-packagr -p ng-package.json -c ../../../../tsconfig.base.json"
+  },
+  "peerDependencies": {
+    "@solenopsys/fl-hyperstreams": "0.1.0",
+    "protobufjs": "^7.2.3"
   }
 }
