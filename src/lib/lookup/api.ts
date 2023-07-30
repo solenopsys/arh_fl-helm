@@ -3,54 +3,54 @@ import * as _m0 from "protobufjs/minimal";
 
 export const protobufPackage = "";
 
-export interface GetReposRequest {
+export type GetReposRequest = {
   filter: string;
 }
 
-export interface Repo {
+export type Repo = {
   name: string;
   url: string;
 }
 
-export interface AddRepoRequest {
+export type AddRepoRequest = {
   name: string;
   url: string;
 }
 
-export interface RemoveRepoRequest {
+export type RemoveRepoRequest = {
   url: string;
 }
 
-export interface ReposResponse {
+export type ReposResponse = {
   repos: Repo[];
 }
 
-export interface OperationStatus {
+export type OperationStatus = {
   status: boolean;
 }
 
-export interface GetChartsRequest {
+export type GetChartsRequest = {
   reload: boolean;
   filter: string;
 }
 
-export interface ChartsResponse {
+export type ChartsResponse = {
   charts: Chart[];
 }
 
-export interface GetInstalledRequest {
+export type GetInstalledRequest ={
   digests: string[];
 }
 
-export interface InstallChartRequest {
+export type InstallChartRequest = {
   digest: string;
 }
 
-export interface UninstallChartRequest {
+export type UninstallChartRequest = {
   digest: string;
 }
 
-export interface Chart {
+export type Chart = {
   name: string;
   version: string;
   description: string;
